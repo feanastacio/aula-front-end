@@ -27,21 +27,21 @@
         height: 100%;
         max-width: 992px;
         margin: 0 auto;
-        border: 1px solid rgb(218, 59, 96);
+        /*border: 1px solid rgb(218, 59, 96);*/
     }
 
     nav{
-        width: 400px;
-        height: 100%;
-        border: 1px solid black;
-    }
-
-    .lousa {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        width: 400px;
+        height: 100%;
+        /*border: 1px solid black;*/
     }
+
 
     .header-flex {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }

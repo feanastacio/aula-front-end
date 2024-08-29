@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            background-color: hwb(0 93% 7%);
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        article{
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 15px;
+            border: 1px dashed rgb(190, 7, 126);
+            border-radius: 10px;
+            background-color: rgb(191, 128, 184);
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        article img{
+            width: 40px;
+            text-align: center;
+        }
+        
+        article h1{
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+        }
+        
+        article p{
+            text-align: center;
+            font-family: cursive;
+            font-size: 12px;
+        }
+
+        </style>
+</head>
+<body>
+    <article>
+        <img src="./imagens/Lightning Bolt.svg" 
+        alt="imagem de um raio">
+        <h1>Web Desing</h1>
+        <p>
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        </p>
+    </article>
+    
+    <article style="background-color: pink;">
+        <img src="./imagens/Download From FTP.svg" 
+        alt="Grafics Desing">
+        <h1>Grafics Desing</h1>
+        <p>
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        </p>
+    </article>
+
+    <article>
+        <img src="./imagens/Opened Folder.svg" 
+        alt="UI/UX Desing">
+        <h1>UI/UX Desing"</h1>
+        <p>
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        </p>
+    </article>
+
+</body> 
+</html>
