@@ -1,18 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
   }
     
    html, body {
      height: 100%;
-     border: 2px solid pink;
+     /*border: 2px solid pink;*/
    }
 
    header, footer {
-    width: 100%;
-    height: 10%;
-    background-color: rgb(95, 106, 198);
+      width: 100%;
+      height: 10%;
+      color: white;
+      background-color: rgb(9, 54, 109);
    }
 
   .layout-grid {
@@ -38,7 +39,7 @@
     }
 
     body {
-        background-color: #e9e9e9;
+        background-color: #efefef;
     }
   
     header {
@@ -67,13 +68,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /*border: 2px solid rgb(218, 214, 214);*/
         width: 100px;
         height: 80px;
         color: #e8e8e8;
         text-decoration: none;
         font-family: Verdana, sans-serif;
         transition: background-color 0.4s, /*border-radius ease, margin-left ease-in-out, margin-bottom ease-out*/;
+        /*border: 2px solid rgb(218, 214, 214);*/
     }
 
     nav a:hover {
@@ -97,40 +98,112 @@
         width: 100%;
         height: 100%;
 
-        border: 2px solid rgb(84, 139, 229);
+        background-color: #efefef;
+        /*border: 2px solid rgb(84, 139, 229);*/
     }
     
-    main {
-        width: 100%;
-        height: 80%;
-        border: 3px solid hsl(180, 91%, 32%);
-    }
-
     .harmonia {      
-        /* margin: 10px;*/
-        background-color: rgb(255, 151, 238);
-        border: 2px solid rgb(160, 191, 240);
+        background-color: white;
         width: 700px;
         height: 100%;
-    }
-    
-    section {
-        width:500px ;
-        height: 500px;
-
-        border: 2px solid rgb(99, 69, 230);       
+        /* margin: 10px;*/
+        /*border: 2px solid rgb(160, 191, 240);*/
     }
 
-    .aside {
-        height: 500px;
-        width: 250px;
-        border: 2px solid rgb(42, 95, 180);       
+    .harmonia img {
+        width: 100%;
+    }
+
+    .harmonia h2 {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #a8a8a8;
+        margin-top: 25px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     
+    .harmonia p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #a8a8a8;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    main {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        height: 80%;
+        /*border: 3px solid hsl(180, 91%, 32%);*/
+    }
+  
     aside {
-        width:350px;
-        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:250px;
+        height: 100%;
+        background-color: white;
+        /*align-items: stretch;*/
+        /*border: 2px solid rgb(21, 68, 144);*/    
+    }
 
-        border: 2px solid rgb(21, 68, 144);       
+    aside article {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        background-color: rgb(134, 184, 240);
+    }
+    
+    aside article h3 {
+        width: 100%;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 200;
+        padding: 10px;
+        border-bottom: 2px solid rgb(0, 115, 255);
+    }
+
+    aside article.buscar-box {
+        display: flex;
+        flex-wrap: wrap;
+        /*flex-direction: row;*/
+        justify-content: space-evenly;
+        
+    }
+    
+    aside article input {
+        border: 1px solid #a8a8a8;
+        outline: none;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    
+    aside article button {
+        width: 30px;
+        background-color:rgb(9, 54, 109);
+        color: white;
+        border: 1px solid #a8a8a8;
+        border: none;
+        cursor: pointer;
+
+        
+    }
+
+
+    aside article input, aside article button {
+        height: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
    
